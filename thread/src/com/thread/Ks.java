@@ -5,5 +5,6 @@ public class Ks {
 	public static void main(String[] args) {
 		System.out.println(Short.valueOf("033"));
 		System.out.println();
+		System.out.println("001");
 	}
 }
