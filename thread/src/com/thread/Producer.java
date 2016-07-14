@@ -19,7 +19,7 @@ public class Producer implements Runnable{
             Product p = new Product(i);    
             productbox.push(p);    
             System.out.println("produce:" + p);    
-               
+            System.out.println("2016-07-15");   
             try {    
                 Thread.sleep((int)(Math.random() * 200));    
             } catch (InterruptedException e) {    

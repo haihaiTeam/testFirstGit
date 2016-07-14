@@ -13,7 +13,8 @@ public class Product {
         this.id = id;    
     }    
        
-    public String toString(){    
+    public String toString(){  
+    	System.out.println("2016-07-15");
         return "Product:" + id;    
     } 
 }

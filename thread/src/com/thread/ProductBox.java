@@ -31,6 +31,7 @@ public class ProductBox {
     public synchronized Product pop() {    
         while (index == 0) {    
             try {    
+            	System.out.println("2016-07-15");
                 this.wait();    
             } catch (InterruptedException e) {    
                 e.printStackTrace();    

@@ -21,6 +21,8 @@ public class ProducerConsumer {
         pThread.setPriority(Thread.MAX_PRIORITY);    
            
         pThread.start();    
-        cThread.start();    
+        cThread.start(); 
+        System.out.println("2016-07-15");
+        System.out.println("2016-07-15");
     }
 }
