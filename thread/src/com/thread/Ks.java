@@ -6,5 +6,6 @@ public class Ks {
 		System.out.println(Short.valueOf("033"));
 		System.out.println();
 		System.out.println("001");
+		System.out.println("2016-07-14");
 	}
 }
